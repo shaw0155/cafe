@@ -1,0 +1,61 @@
+.contactus-section-card {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contactus-section-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contactus-section-card form div {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid #666;
+}
+
+.contactus-section-card form input {
+  font-size: 1.4rem;
+  width: 45rem;
+  height: 4rem;
+  background-color: var(--background-color);
+  border: none;
+}
+
+.contactus-section-card form input:focus {
+  outline: none;
+}
+
+.contactus-section-card form button {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.map {
+  align-self: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .contactus-section-card {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .map {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .map {
+    max-width: 35rem;
+  }
+}

@@ -1,0 +1,33 @@
+.menu-card {
+  border: 1px solid #666;
+  padding: 4rem 11rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-card img {
+  max-width: 10rem;
+  border-radius: 100%;
+}
+
+.menu-card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.menu-card p {
+  font-size: 2.4rem;
+}
+
+.menu-card button {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-card {
+    scale: 0.8;
+  }
+}
