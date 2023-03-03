@@ -13,6 +13,7 @@ export default function Contactus() {
       <div className="contactus-section-card">
         <div className="map">
           <iframe
+            title="map"
             className="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6724.980623636425!2d-3.2276944246325514!3d39.39206763157801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69af1d0fb9e791%3A0x53c767f10a65146!2sAlcazar%20De%20San%20Juan!5e0!3m2!1sar!2seg!4v1677852544411!5m2!1sar!2seg"
             width="600"
